@@ -1,5 +1,6 @@
 *{
-    background-color: #141415
+    background-color: #141415;
+    scroll-behavior: smooth;
 
 }
 
@@ -16,26 +17,48 @@ a {
   }
   
 nav {
-    display: inline;
-    padding: 0.5%;
-    margin: 12.5%;
+    display: inline-flex;
+    padding: .5rem;
+    margin: auto;
     text-align: center;
-    
+    background-color: #D4AF37;
   }
   
 nav a {
     color: white;
+    display: block;
     text-align: center;
+    align-content: center;
+    margin-left: 5vw;
+    margin-right: 6vw;
+    background-color: #D4AF37;
   }
-  
+
+#nv{
+    background-color: #D4AF37;
+    padding: 1%;
+    border-radius: 10px 20px;
+}
+
+
 nav a:hover {
-    color: #FFD700;
+    color: #241f00;
   } 
   
 section {
     background: #141415;
   }
   
+label input{
+    margin: 10px 10px 10px 10px;
+}
+label select{
+    margin: 10px 10px 10px 10px;
+}
+select{
+    min-width: 150px;
+    min-height: 25px;
+}
 input, textarea {
     background-color: #222;
     color: white;
@@ -43,6 +66,8 @@ input, textarea {
   }
   
 input[type="submit"] {
+    display: block;
+    text-align: center;
     background: #FFD700;
     color: #141415;
   }
@@ -50,3 +75,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #D4AF37; 
   }
+
+footer{
+    text-align: center;
+}
+footer div a{
+    padding: 0 5vw;
+}
