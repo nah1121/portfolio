@@ -1,0 +1,52 @@
+*{
+    background-color: #141415
+
+}
+
+body {
+    background-color: #141415;
+    color: white;
+  }
+h1, h2, h3{
+    color: #D4AF37; 
+  }
+ 
+a {
+    color: #FFD700;
+  }
+  
+nav {
+    display: inline;
+    padding: 0.5%;
+    margin: 12.5%;
+    text-align: center;
+    
+  }
+  
+nav a {
+    color: white;
+    text-align: center;
+  }
+  
+nav a:hover {
+    color: #FFD700;
+  } 
+  
+section {
+    background: #141415;
+  }
+  
+input, textarea {
+    background-color: #222;
+    color: white;
+    border-color: #D4AF37;
+  }
+  
+input[type="submit"] {
+    background: #FFD700;
+    color: #141415;
+  }
+  
+input[type="submit"]:hover {
+    background: #D4AF37; 
+  }
