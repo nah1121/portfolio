@@ -28,9 +28,6 @@ nav a {
     color: white;
     display: block;
     text-align: center;
-    align-content: center;
-    margin-left: 5vw;
-    margin-right: 6vw;
     background-color: #D4AF37;
   }
 
@@ -38,6 +35,8 @@ nav a {
     background-color: #D4AF37;
     padding: 1%;
     border-radius: 10px 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 
